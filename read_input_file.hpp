@@ -1,5 +1,7 @@
 /***  reading of input file with obstacles  ***/
 
+// not supported so far
+
 #include <fstream>
 #include <iostream>
 
