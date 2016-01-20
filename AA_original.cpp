@@ -105,7 +105,7 @@ void allocateMemory(void) {
   u_x = new double*[LX];
   u_y = new double*[LX];
   du_x = new double*[LX];
-  du_y = new double*[LY];
+  du_y = new double*[LX];
   obstacle =  new int*[LX];
   sigma = new double*[LX];
 
@@ -424,7 +424,6 @@ for(int iter=0 ; iter <NR_iterations+1; iter ++ )
 
  return 0;
 }
-
 
 
 
